@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>January</title>
+
+    <style>
+      .banner {
+        width: 465px;
+      }
+      container {
+        width: 460px;
+        border: solid 1px black;
+      }
+      #heading {
+        border-top: 1px solid black;
+      }
+      .cell {
+        display: inline-block;
+        width: 60px;
+        height: 60px;
+        border: solid black 1px;
+        border-top: none;
+        font-size: 30px;
+      }
+      calender {
+        width: 460px;
+        border-bottom: 1px solid orange;
+      }
+      .empty {
+        border: dashed 1px rgb(0, 0, 0);
+        border-top: none;
+        color: rgb(134, 134, 134);
+        background-color: rgb(134, 134, 134);
+      }
+      .bottom {
+        width: 465px;
+      }
+      .sunday{
+        color:red;
+        background-color: blue;
+        border: yellow 1px solid;
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <div class="container">
+        <img src="./img/1.jpg" alt="" class="banner" />
+        <div class="calender">
+          <div class="row">
+            <div class="cell" id="heading sunday">Sun</div>
+            <div class="cell" id="heading">Mon</div>
+            <div class="cell" id="heading">Tue</div>
+            <div class="cell" id="heading">Wed</div>
+            <div class="cell" id="heading">Thu</div>
+            <div class="cell" id="heading">Fri</div>
+            <div class="cell" id="heading">Sat</div>
+          </div>
+          <!-- Row -->
+          <div class="row">
+            <div class="cell empty">.</div>
+            <div class="cell empty">.</div>
+            <div class="cell empty">.</div>
+            <div class="cell holiday">1</div>
+            <div class="cell">2</div>
+            <div class="cell">3</div>
+            <div class="cell sunday">4</div>
+          </div>
+          <div class="row">
+            <div class="cell sunday">5</div>
+            <div class="cell">6</div>
+            <div class="cell">7</div>
+            <div class="cell">8</div>
+            <div class="cell">9</div>
+            <div class="cell">10</div>
+            <div class="cell sunday">11</div>
+          </div>
+          <div class="row">
+            <div class="cell sunday">12</div>
+            <div class="cell">13</div>
+            <div class="cell holiday">14</div>
+            <div class="cell holiday">15</div>
+            <div class="cell holiday">16</div>
+            <div class="cell">17</div>
+            <div class="cell sunday">18</div>
+          </div>
+          <div class="row">
+            <div class="cell sunday">19</div>
+            <div class="cell">20</div>
+            <div class="cell">21</div>
+            <div class="cell">22</div>
+            <div class="cell">23</div>
+            <div class="cell">24</div>
+            <div class="cell sunday">25</div>
+          </div>
+          <div class="row">
+            <div class="cell sunday">26</div>
+            <div class="cell">27</div>
+            <div class="cell">28</div>
+            <div class="cell">29</div>
+            <div class="cell">30</div>
+            <div class="cell">31</div>
+            <div class="cell"><a href="feb.html">Feb</a></div>
+          </div>
+        </div>
+        <img src="./img/image(1).png" alt="" class="bottom" />
+      </div>
+    </center>
+  </body>
+</html>
